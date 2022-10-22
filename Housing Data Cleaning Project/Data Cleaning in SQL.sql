@@ -197,6 +197,7 @@ ALTER TABLE PortfolioProject..NashvileHousing
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress,SaleDate
 -----------------------------------------------------------------------
 
+--The clean data set:
 Select *
 From PortfolioProject..NashvileHousing
 Order by UniqueID 
